@@ -1,0 +1,226 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.background {
+  background-image: url("https://bonavistaphysio.ca/wp-content/themes/Bonavista2016/dist/images/blog-fallback.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#logo {
+  text-align: center;
+}
+#logo > img {
+  width: 34%;
+  margin-top: 20px;
+}
+#navbar {
+  height: 40px;
+  width: 55%;
+  margin: auto;
+  border: 0px solid black;
+}
+#navbar > div {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  font-size: 13px;
+  justify-content: center;
+  align-items: center;
+}
+.fbinsta {
+  height: 17px;
+}
+#footer {
+  height: 400px;
+  width: 99.6%;
+  background-color: #3d7cc9;
+  padding: 10px;
+  color: #eaeae9;
+}
+#footerChild1 {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  color: #eaeae9;
+  align-items: center;
+  margin-top: 20px;
+}
+#para {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 12px;
+}
+#upperbody {
+  height: 200x;
+  width: 55%;
+  border: 0px solid blue;
+  margin-top: 50px;
+  margin-left: 110px;
+}
+#upperbody > div > p:nth-child(1) {
+  font-size: 30px;
+  color: #100708;
+}
+#upperbody > div > p:nth-child(2) {
+  color: #100708;
+  line-height: 25px;
+}
+#midbar {
+  margin: -7px;
+  padding: 0px;
+}
+#midbar > img {
+  width: 99.6%;
+}
+
+#midsection {
+  height: 500px;
+  width: 70%;
+  border: 0px solid red;
+  margin: auto;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 130px;
+}
+#midsection > div {
+  height: 450px;
+  width: 48%;
+  margin: auto;
+  border: 0px solid blue;
+  line-height: 22px;
+}
+#midsection > div > p {
+  color: #242222;
+}
+.midsection-img {
+  width: 100%;
+}
+#midsection button {
+  border: 0px;
+  background-color: #d7282f;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.btn1 {
+  margin: auto;
+  text-align: center;
+}
+#midsection button:hover {
+  background-color: #a43538;
+}
+#background1 {
+  background-image: url("https://img.freepik.com/premium-photo/person-with-physical-disability-wheelchair-fishing-from-fishing-pier_179755-17481.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 70%;
+  height: 10%;
+  /* height: 100vh; */
+  background-size: 100%;
+  background-position: center;
+
+  height: 500px;
+  width: 100%;
+  border: 1px solid transparent;
+  margin: auto;
+}
+
+#bgChild2 {
+  height: 200px;
+  width: 90%;
+  border: 0px solid red;
+  margin: auto;
+  margin-top: 200px;
+}
+#bgChild2 > div > button {
+  border: 0px;
+  background-color: #d7282f;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+#btn3 {
+  text-align: center;
+}
+#bgChild2 > p:nth-child(1) {
+  font-size: 25px;
+}
+#btn3 button:hover {
+  background-color: #a43538;
+}
+
+#bottom {
+  height: 500px;
+  width: 70%;
+  border: 0px solid blue;
+  margin: auto;
+  display: flex;
+  margin-bottom: 15%;
+  margin-top: 50px;
+}
+#bottom > div {
+  margin: auto;
+  line-height: 22px;
+}
+#bottom > div > button {
+  border: 0px;
+  background-color: #d7282f;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+#bottom > div > button:hover {
+  background-color: #a43538;
+}
+#bottom > div > p:nth-child(1) {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+#bottom > div:nth-child(1) {
+  height: 450px;
+  width: 40%;
+  border: 0px solid blue;
+}
+#bottom > div:nth-child(2) {
+  height: 450px;
+  width: 55%;
+  border: 0px solid blue;
+}
+#collage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 8px;
+  grid-template-areas:
+    "a b "
+    "c d ";
+}
+#collage > div > img {
+  width: 100%;
+}
+
+#collage > div:nth-child(1) {
+  grid-area: a;
+}
+#collage > div:nth-child(2) {
+  grid-area: b;
+}
+#collage > div:nth-child(3) {
+  grid-area: c;
+}
+#collage > div:nth-child(4) {
+  grid-area: d;
+}
