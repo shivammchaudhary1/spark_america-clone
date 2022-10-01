@@ -26,6 +26,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+#navbar > div > p:hover {
+  cursor: pointer;
+  color: #d7282f;
+}
 .fbinsta {
   height: 17px;
 }
@@ -34,17 +38,55 @@ body {
   height: 2px;
   width: 55%;
   margin: auto;
-  margin-top: 5px;
   background-color: #d7282f;
 }
 
 #upper-content {
   height: 300px;
   width: 70%;
-  border: 1px solid red;
+  border: 1px solid transparent;
   margin: auto;
   margin-top: 20px;
-  margin-bottom: 700px;
+  margin-bottom: 600px;
+}
+#upper-content > p:nth-child(1) {
+  font-size: 25px;
+}
+
+#upper-content > p:nth-child(2) {
+  font-size: 15px;
+  line-height: 20px;
+}
+ul > p:nth-child(1) {
+  font-weight: bold;
+  font-size: 20px;
+}
+ul {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.btn4 > button {
+  border: 0px;
+  padding: 15px 30px 15px 30px;
+  border-radius: 5px;
+  background-color: #0082ca;
+  color: white;
+}
+.btn4 {
+  text-align: center;
+}
+
+.underline-child {
+  height: 2px;
+  width: 20%;
+  margin-top: 5px;
+  background-color: #d7282f;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: orange;
 }
 
 #footer {
@@ -53,17 +95,24 @@ body {
   background-color: #3d7cc9;
   padding: 10px;
   color: #eaeae9;
+  border: 0px solid red;
 }
 #footerChild1 {
   display: flex;
   justify-content: center;
-  gap: 25px;
+  gap: 50px;
   color: #eaeae9;
   align-items: center;
   margin-top: 20px;
+  border: 0px solid red;
+  height: 280px;
+}
+#footerChild1 > div {
+  border: 0px solid red;
+  height: 280px;
 }
 #para {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
   font-size: 12px;
 }
