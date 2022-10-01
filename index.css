@@ -201,12 +201,12 @@ body {
 }
 #collage {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 8px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 5px;
   grid-template-areas:
-    "a b "
-    "c d ";
+    "a a b "
+    "c d d ";
 }
 #collage > div > img {
   width: 100%;
