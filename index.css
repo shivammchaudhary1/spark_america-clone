@@ -30,6 +30,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+#navbar > div > p:hover {
+  cursor: pointer;
+  color: #d7282f;
+}
 .fbinsta {
   height: 17px;
 }
@@ -39,6 +43,7 @@ body {
   background-color: #3d7cc9;
   padding: 10px;
   color: #eaeae9;
+  border: 0px solid red;
 }
 #footerChild1 {
   display: flex;
@@ -47,10 +52,16 @@ body {
   color: #eaeae9;
   align-items: center;
   margin-top: 20px;
+  border: 0px solid red;
+  height: 280px;
+}
+#footerChild1 > div {
+  border: 0px solid red;
+  height: 280px;
 }
 #para {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
   font-size: 12px;
 }
 #upperbody {
