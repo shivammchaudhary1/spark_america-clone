@@ -35,7 +35,7 @@ body {
 }
 #footer {
   height: 400px;
-  width: 100%;
+  width: 99.6%;
   background-color: #3d7cc9;
   padding: 10px;
   color: #eaeae9;
@@ -73,5 +73,154 @@ body {
   padding: 0px;
 }
 #midbar > img {
-  width: 101%;
+  width: 99.6%;
+}
+
+#midsection {
+  height: 500px;
+  width: 70%;
+  border: 0px solid red;
+  margin: auto;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 130px;
+}
+#midsection > div {
+  height: 450px;
+  width: 48%;
+  margin: auto;
+  border: 0px solid blue;
+  line-height: 22px;
+}
+#midsection > div > p {
+  color: #242222;
+}
+.midsection-img {
+  width: 100%;
+}
+#midsection button {
+  border: 0px;
+  background-color: #d7282f;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.btn1 {
+  margin: auto;
+  text-align: center;
+}
+#midsection button:hover {
+  background-color: #a43538;
+}
+#background1 {
+  background-image: url("https://img.freepik.com/premium-photo/person-with-physical-disability-wheelchair-fishing-from-fishing-pier_179755-17481.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 70%;
+  height: 10%;
+  /* height: 100vh; */
+  background-size: 100%;
+  background-position: center;
+
+  height: 500px;
+  width: 100%;
+  border: 1px solid transparent;
+  margin: auto;
+}
+
+#bgChild2 {
+  height: 200px;
+  width: 90%;
+  border: 0px solid red;
+  margin: auto;
+  margin-top: 200px;
+}
+#bgChild2 > div > button {
+  border: 0px;
+  background-color: #d7282f;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+#btn3 {
+  text-align: center;
+}
+#bgChild2 > p:nth-child(1) {
+  font-size: 25px;
+}
+#btn3 button:hover {
+  background-color: #a43538;
+}
+
+#bottom {
+  height: 500px;
+  width: 70%;
+  border: 0px solid blue;
+  margin: auto;
+  display: flex;
+  margin-bottom: 15%;
+  margin-top: 50px;
+}
+#bottom > div {
+  margin: auto;
+  line-height: 22px;
+}
+#bottom > div > button {
+  border: 0px;
+  background-color: #d7282f;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+#bottom > div > button:hover {
+  background-color: #a43538;
+}
+#bottom > div > p:nth-child(1) {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+#bottom > div:nth-child(1) {
+  height: 450px;
+  width: 40%;
+  border: 0px solid blue;
+}
+#bottom > div:nth-child(2) {
+  height: 450px;
+  width: 55%;
+  border: 0px solid blue;
+}
+#collage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 8px;
+  grid-template-areas:
+    "a b "
+    "c d ";
+}
+#collage > div > img {
+  width: 100%;
+}
+
+#collage > div:nth-child(1) {
+  grid-area: a;
+}
+#collage > div:nth-child(2) {
+  grid-area: b;
+}
+#collage > div:nth-child(3) {
+  grid-area: c;
+}
+#collage > div:nth-child(4) {
+  grid-area: d;
 }
