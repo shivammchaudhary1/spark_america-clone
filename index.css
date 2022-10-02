@@ -30,7 +30,11 @@ body {
   justify-content: center;
   align-items: center;
 }
-#navbar > div > p:hover {
+#navbar > div > p > a {
+  text-decoration: none;
+  color: #100708;
+}
+#navbar > div > p > a:hover {
   cursor: pointer;
   color: #d7282f;
 }
@@ -48,7 +52,7 @@ body {
 #footerChild1 {
   display: flex;
   justify-content: center;
-  gap: 25px;
+  gap: 40px;
   color: #eaeae9;
   align-items: center;
   margin-top: 20px;
@@ -182,17 +186,20 @@ body {
   margin: auto;
   line-height: 22px;
 }
-#bottom > div > button {
+#bottom div button {
   border: 0px;
   background-color: #d7282f;
-  padding: 10px;
+  padding: 12px 20px 12px 20px;
   border-radius: 20px;
   color: white;
   justify-content: center;
   align-items: center;
   margin-top: 10px;
 }
-#bottom > div > button:hover {
+#btn1-l {
+  text-align: center;
+}
+#bottom div button:hover {
   background-color: #a43538;
 }
 #bottom > div > p:nth-child(1) {
