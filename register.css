@@ -79,3 +79,7 @@ form > label {
 #registerChild1 > a:hover {
   color: #033651;
 }
+#registerChild1 > button > a {
+  text-decoration: none;
+  color: white;
+}
