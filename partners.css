@@ -188,3 +188,21 @@ body {
 #footerhover > p:hover {
   cursor: pointer;
 }
+
+@media all and (min-width: 300px) and (max-width: 900px) {
+  #containerChild {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(9, auto);
+    gap: 10px;
+    margin-bottom: 20%;
+    margin-top: 100%;
+  }
+
+  #afterbodytop2 {
+    margin-top: 200px;
+  }
+  #afterbodytopbtn > button {
+    margin-top: 280px;
+  }
+}

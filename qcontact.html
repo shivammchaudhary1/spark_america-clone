@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CONTACT US -SparkAmerica sparkamerica.com</title>
     <link rel="stylesheet" href="qcontact.css" />
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="index.js"></script>
   </head>
   <body>
     <div id="logo">
@@ -65,8 +65,18 @@
         <form action="">
           <p class="bodypara">REACH OUT</p>
 
-          <input class="inp" type="text" placeholder=" Your Name" /><br />
-          <input class="inp" type="email" placeholder="Email Address" />
+          <input
+            id="name"
+            class="inp"
+            type="text"
+            placeholder=" Your Name"
+          /><br />
+          <input
+            id="email"
+            class="inp"
+            type="email"
+            placeholder="Email Address"
+          />
           <br />
 
           <h4>Your Interest in SparkAmerica</h4>
@@ -83,13 +93,21 @@
           />
           <label for="">Please bring SparkAmerica to Our City</label>
 
-          <div
-            class="g-recaptcha"
-            data-sitekey="6Lc2g0giAAAAAKp0k65cfW88ppBZ9Fl0PHIVhpCK"
-          ></div>
+          <div>
+            <img
+              style="width: 50%; margin-top: 20px"
+              src="https://miro.medium.com/max/775/0*KIqtxjeGI_IcXyp8.png"
+              alt=""
+            />
+          </div>
           <br />
 
-          <input id="btn6" type="submit" value="SEND MESSSAGE" />
+          <input
+            onclick="myfun()"
+            id="btn6"
+            type="submit"
+            value="SEND MESSSAGE"
+          />
         </form>
       </div>
       <div>

@@ -155,3 +155,38 @@ body {
 #footerhover > p {
   cursor: pointer;
 }
+@media all and (min-width: 300px) and (max-width: 900px) {
+  #contacttop {
+    margin-bottom: 20%;
+  }
+
+  #contactbody {
+    height: auto;
+    width: 90%;
+    border: 1px solid transparent;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1, 1fr;
+    grid-template-rows: 1, 1fr;
+    gap: 70px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+  }
+
+  #contactbody > div {
+    height: auto;
+    width: 80%;
+    border: 1px solid transparent;
+    margin: auto;
+  }
+  #contactbody > div:nth-child(2) {
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #contactbody > div:nth-child(1) {
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

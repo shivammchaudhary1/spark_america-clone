@@ -21,6 +21,7 @@ body {
 }
 #registerChild1 {
   display: flex;
+  margin-top: 20%;
   justify-content: space-between;
 }
 #registerChild1 > a {
@@ -44,7 +45,9 @@ form {
   padding: 10px;
 }
 form > input {
-  padding-right: 380px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 200px;
   padding-top: 7px;
   padding-bottom: 7px;
 }
@@ -61,7 +64,7 @@ form > label {
 #registerChild1 > a {
   color: #1377ac;
 }
-#registerChild1 > input {
+#registerChild1 > button {
   color: white;
   background-color: #1377ac;
   border-radius: 30px;
@@ -69,7 +72,8 @@ form > label {
   border: 0px;
   font-weight: bold;
 }
-#registerChild1 > input:hover {
+#registerChild1 > button:hover {
+  cursor: pointer;
   background-color: #033651;
 }
 #registerChild1 > a:hover {

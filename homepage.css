@@ -182,7 +182,7 @@ body {
   border: 0px solid blue;
   margin: auto;
   display: flex;
-  margin-bottom: 15%;
+  margin-bottom: 10%;
   margin-top: 50px;
 }
 #bottom > div {
@@ -244,4 +244,19 @@ body {
 }
 #collage > div:nth-child(4) {
   grid-area: d;
+}
+
+@media all and (min-width: 300px) and (max-width: 700px) {
+  #midsection {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 50px;
+    margin-top: 10%;
+    margin-bottom: 60%;
+  }
+
+  #bottom {
+    margin-bottom: 50%;
+  }
 }
