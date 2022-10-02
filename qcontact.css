@@ -26,7 +26,11 @@ body {
   justify-content: center;
   align-items: center;
 }
-#navbar > div > p:hover {
+#navbar > div > p > a {
+  text-decoration: none;
+  color: #100708;
+}
+#navbar > div > p > a:hover {
   cursor: pointer;
   color: #d7282f;
 }
@@ -63,6 +67,9 @@ body {
 #contacttop > div > p > span {
   color: #69a5df;
 }
+#contacttop > div > p > span:hover {
+  cursor: pointer;
+}
 
 #contactbody {
   height: 400px;
@@ -97,6 +104,9 @@ body {
 }
 .bodypara + span {
   color: #69a5df;
+}
+.bodypara + span:hover {
+  cursor: pointer;
 }
 .inp {
   padding: 2% 24%;
@@ -141,4 +151,7 @@ body {
   text-align: center;
   margin-top: 50px;
   font-size: 12px;
+}
+#footerhover > p {
+  cursor: pointer;
 }

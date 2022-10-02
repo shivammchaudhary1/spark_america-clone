@@ -63,6 +63,9 @@ body {
   border: 0px solid red;
   height: 280px;
 }
+#footerChild1 > div > p:hover {
+  cursor: pointer;
+}
 #para {
   text-align: center;
   margin-top: 50px;
