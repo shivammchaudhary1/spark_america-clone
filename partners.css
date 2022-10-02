@@ -7,7 +7,7 @@ body {
 #logo {
   text-align: center;
 }
-#logo > img {
+#logo img {
   width: 34%;
   margin-top: 20px;
 }
