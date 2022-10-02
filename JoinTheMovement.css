@@ -26,7 +26,11 @@ body {
   justify-content: center;
   align-items: center;
 }
-#navbar > div > p:hover {
+#navbar > div > p > a {
+  text-decoration: none;
+  color: #100708;
+}
+#navbar > div > p > a:hover {
   cursor: pointer;
   color: #d7282f;
 }

@@ -206,3 +206,8 @@ body {
     margin-top: 280px;
   }
 }
+
+.btnn button a {
+  text-decoration: none;
+  color: white;
+}

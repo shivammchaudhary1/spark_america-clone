@@ -13,15 +13,19 @@ body {
 }
 #register {
   height: 300px;
-  width: 45%;
+  width: 30%;
   background-color: white;
   margin: auto;
-  padding: 20px;
+  padding: 50px;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#email {
+  padding: 5px 100px 5px 0px;
 }
 #registerChild1 {
   display: flex;
-  margin-top: 20%;
+  margin-top: 13%;
   justify-content: space-between;
 }
 #registerChild1 > a {
@@ -41,16 +45,11 @@ body {
   color: black;
 }
 form {
-  margin-top: 15px;
-  padding: 10px;
+  border: 1px solid transparent;
+  margin-top: 20px;
+  padding: 0px;
 }
-form > input {
-  display: flex;
-  flex-wrap: wrap;
-  padding-right: 200px;
-  padding-top: 7px;
-  padding-bottom: 7px;
-}
+
 form > label {
   font-size: 15px;
   color: gray;
