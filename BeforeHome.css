@@ -77,3 +77,28 @@ h6 {
 #Footer > div > p {
   font-size: 10px;
 }
+#Footer > div > p > a {
+  color: #666666;
+}
+#Footer > div > p > a:hover {
+  color: #1095dc;
+  cursor: pointer;
+}
+#Footer > div > h5 > a {
+  font-size: 12px;
+  color: #666666;
+}
+#Footer > div > h5 > a:hover {
+  color: #1095dc;
+}
+#LowerBody > p > a {
+  color: #1095dc;
+}
+#UpperBodyChild1 > p > a {
+  color: #1095dc;
+  font-size: 15px;
+}
+#BeforeMain_Navbar > p > a {
+  color: #1095dc;
+  font-size: 15px;
+}
