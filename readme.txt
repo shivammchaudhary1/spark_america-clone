@@ -1,26 +1,28 @@
-Project Code : aloof-substance-9792
-Website : https://www.sparkpeople.com/
+##Spark America
 
-Before Home Page Done
+Clone of https://sparkamerica.com/
+This project is a website created using HTML, CSS, and JavaScript in 5 individual days. The website is designed to bring health and fitness information and resources to the users.
 
-Home Page Done without javaScript
-Join the movement done without functionality
-register page done without functionality
+#Deployment
+The website is deployed on Netlify.
+https://scintillating-pothos-6b125b.netlify.app/
 
+#Github Repository
+The codebase for the project is available on Github at https://github.com/shivammchaudhary1/-aloof-substance-9792.
 
-****LAYOUT ONLY*****
-Before Home Page  Done
-Home page done
-Joint The Movement Done
-Partner Page Done
-Register Page Done
-Contact Us Done
+Prerequisites
+In order to run the website locally, you should have a basic understanding of HTML, CSS, and JavaScript. Additionally, you will need to have a local development environment set up on your computer, including a text editor and a web browser.
 
+#Getting Started
+Clone the repository: git clone https://github.com/shivammchaudhary1/-aloof-substance-9792.git
+Change into the project directory: cd aloof-substance-9792
+Open the code in your text editor and run it in your web browser to view the website.
 
-****TOMORROW TASK*****
-* Link together
-* Google reCaptcha
-* Media Queries
-* local Storage
+#Built With
+HTML
+CSS
+JavaScript
+Contributors
 
-*****DONE****
+This project was built by Shivam Chaudhary.
+
