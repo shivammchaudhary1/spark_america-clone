@@ -24,11 +24,12 @@
       </div>
 
       <form action="">
-        <input type="text" name="" id="email" placeholder="email id" />
-        <input type="password" placeholder="Password" />
-        <input type="password" placeholder="Enter Password Again" />
         <input type="text" name="" id="fname" placeholder="First Name" />
         <input type="text" name="" id="lname" placeholder="Last Name" />
+        <input type="text" name="" id="email" placeholder="Email id" />
+        <input type="password" placeholder="Password" id="password"/>
+        <input type="password" placeholder="Confirm Password" />
+
         <input type="date" name="" id="dob" placeholder="Date of Birth" />
         <input type="number" placeholder="Zip Code" />
         <label for=""
@@ -45,13 +46,14 @@
           >I have read and agree to PeopleOne's
           <span><a href="">Privacy Policy.</a></span></label
         >
-        <input
-          onclick="myfun()"
-          type="submit"
-          name=""
-          id="sub"
-          value="CREATE ACCOUNT"
-        />
+        <!-- <button onclick="myfun()" type="submit" id="sub">
+          <a href="form.html">CREATE ACCOUNT</a>
+        </button> -->
+        <input type="submit" name="" id="sub" value="Create Account">
+
+        <p class="already">
+          Already have an account? <a href="register.html">Login</a>
+        </p>
       </form>
     </div>
   </body>

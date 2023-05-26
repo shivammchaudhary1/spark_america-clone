@@ -5,6 +5,7 @@ body {
 }
 #logo {
   text-align: center;
+  cursor: pointer;
 }
 #logo img {
   width: 40%;
@@ -12,7 +13,7 @@ body {
 }
 .formm {
   width: 30%;
-  height: 700px;
+  height: 105vh;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   margin: auto;
   background-color: white;
@@ -40,6 +41,10 @@ form {
   border-radius: 50px;
   font-weight: bold;
 }
+#sub >a{
+  text-decoration: none;
+  color: white;
+}
 #sub:hover {
   cursor: pointer;
   background-color: #03283b;
@@ -54,4 +59,13 @@ form > label > span > a {
 form > label > span > a:hover {
   cursor: pointer;
   color: #03283b;
+}
+
+input{
+  height: 2rem;
+
+}
+.already a{
+  text-decoration: none;
+  color: #006da8;
 }

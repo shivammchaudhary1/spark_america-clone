@@ -17,18 +17,30 @@
 
     <div id="register">
       <form action="">
-        <label for="">Please enter your email address to get started:</label
-        ><br />
+        <label for="">Email</label><br />
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter Your mail ID"
+          required
+        /><br />
         <br />
-        <input type="email" id="email" placeholder="Enter Yoyr mail ID" /><br />
+        <label for="">Password</label> <br />
+        <input
+          type="password"
+          placeholder="Enter your password"
+          id="password"
+          required
+        />
+        <br />
         <br />
         <label
           >Note: If your organization or company already uses PeopleOne, please
           enter your company email address above.</label
         >
         <div id="registerChild1">
-          <a href="">GO BACK</a>
-          <button onclick="myFun()"><a href="form.html">CONTINUE</a></button>
+          <a href="form.html">Create an account</a>
+          <button onclick="myFun()">CONTINUE</button>
         </div>
       </form>
     </div>
@@ -43,14 +55,4 @@
     </div>
   </body>
 </html>
-
-<script>
-  function myFun() {
-    let mailid = document.querySelector("#email").value;
-    if (mailid === "") {
-      alert("Please Enter your Mail ID");
-    } else {
-      localStorage.setItem("email", document.querySelector("#email").value);
-    }
-  }
-</script>
+<script src="register.js"></script>
