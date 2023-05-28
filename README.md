@@ -5,7 +5,7 @@ This project is a website created using HTML, CSS, and JavaScript in 5 individua
 
 ## Deployment
 The website is deployed on Netlify.
-https://scintillating-pothos-6b125b.netlify.app/
+https://spark-america-website-clone.netlify.app/
 
 ## Github Repository
 The codebase for the project is available on Github at https://github.com/shivammchaudhary1/-aloof-substance-9792.
